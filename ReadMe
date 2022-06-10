@@ -1,0 +1,26 @@
+Problem set: 1- Regex
+Q.Write a regex to extract all the numbers with orange color background from the below text in italics (Output should be a list).
+
+
+{"orders":[{"id":1},{"id":2},{"id":3},{"id":4},{"id":5},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10},{"id":11},{"id":648},{"id":649},{"id":650},{"id":651},{"id":652},{"id":653}],"errors":[{"code":3,"message":"[PHP Warning #2] count(): Parameter must be an array or an object that implements Countable (153)"}]}
+ 
+CODE: https://colab.research.google.com/drive/1l20PoSAif6wPlcaCsHrdM3oARPYyNPhe#scrollTo=uLFiIurq_cpH&line=1&uniqifier=1
+
+Also Code is uploaded to the GitLab as assignment1.py
+
+
+ 
+Problem set: 3
+QA. write and share a small note about your choice of system to schedule perodic tasks:
+Answer: We can configure perodic tasks either by manually adding the module or using the django-celery -beat package.I would like to choose the django-celery-beat.because this extension enables the user to store periodic task in django database and manage the tasks using the django admin interface.When creating scalable web application, celery provides a task queue with real-time processing and task scheduling functionality, which are absent in the core django framework.celery modules periodic task functionality allows developers to automate repetitive tasks from within a django project.
+    
+
+QB. In what circumstances would you use Flask instead of Django and vice versa?
+Answer:  1: Flask provides support for API while Django doesn't have any support for API.
+                2: Flask is a Python web framework built for rapid development wheras Django is built for easy and simple projects.
+                3: Flask offers a diversified working style while Django offers a monolithic working style.
+                4: Flask is WSGI framework while Django is a full stack web framework.
+                5: Flask does not support dynamic HTML pages and django offers dynamic HTML pages.
+                6: URL dispatcher of the flask web framework is a RESTful request on the other hand, URL dispatcher of django framework is based on controller-regex 
+                 
+ 	
